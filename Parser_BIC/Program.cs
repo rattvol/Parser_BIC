@@ -63,7 +63,7 @@ namespace Parser_BIC
             }
             //******************загоняем в json**********************
 
-            Console.WriteLine("Заполнено {0} банков, k);
+            Console.WriteLine("Заполнено {0} банков", k);
             try
             {
                 var serializer = new JavaScriptSerializer();
