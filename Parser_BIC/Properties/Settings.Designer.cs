@@ -22,5 +22,14 @@ namespace Parser_BIC.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:/Users/User/Downloads/банк/result.json")]
+        public string FilePath {
+            get {
+                return ((string)(this["FilePath"]));
+            }
+        }
     }
 }
