@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="FilePath" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">%HOMEDRIVE%%HOMEPATH%/Documents/result.json</Value>
+      <Value Profile="(Default)">/Documents/BIC_Parsing_result.json</Value>
     </Setting>
   </Settings>
 </SettingsFile>

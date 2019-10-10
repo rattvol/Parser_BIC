@@ -25,7 +25,7 @@ namespace Parser_BIC.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("%HOMEDRIVE%%HOMEPATH%/Documents/result.json")]
+        [global::System.Configuration.DefaultSettingValueAttribute("/Documents/BIC_Parsing_result.json")]
         public string FilePath {
             get {
                 return ((string)(this["FilePath"]));
