@@ -1,17 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
 using System.Data;
-using System.Globalization;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Web.Script.Serialization;
-using System.Xml;
-using System.Xml.Linq;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Serialization;
 
 namespace Parser_BIC
 {
@@ -26,7 +17,7 @@ namespace Parser_BIC
     public class InitWebServ
     {
         public List<Record> bicBaseArray = new List<Record>(); //Сюда загрузим все данные по банкам
-        string filePath = Properties.Settings.Default.FilePath;//путь к файлу
+        string filePath =  Environment.GetEnvironmentVariable("USERPROFILE") + Properties.Settings.Default.FilePath;//путь к файлу
 
         public InitWebServ()
         {
